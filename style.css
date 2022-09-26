@@ -1,0 +1,47 @@
+/*
+sélécteur{
+    propriété : valeur;
+}
+/*
+*/
+body, html{
+
+    background-image: url("media/voluume.jpg");
+    min-height: 500px; 
+    background-attachment: fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+ 
+}
+
+body{
+
+    background-color: rgb(216, 254, 255);
+    color: rgb(22, 22, 22);
+    font-family:sans-serif
+    margin auto; text-align: center;
+}
+.fa {
+    padding: 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    .fa:hover {
+        opacity: 0.7;
+        .fa-instagram {
+            background: #125688;
+            color: white;
+          }
+
+    
+.wrap{
+
+    
+}
+
+.intro{
+    font-size: 32px;
+}

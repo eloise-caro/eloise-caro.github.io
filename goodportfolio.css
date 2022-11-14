@@ -1,0 +1,424 @@
+/*page d'acceuil*/
+body{
+    margin: 0px;
+    height: 100px;
+  }
+    
+  img{
+    width:100%; /* 666 */
+    display:block;
+    margin: 50px 40px 50px 0px;
+    opacity: 100%;
+    
+  }
+
+  .head{
+    background: linear-gradient(-5deg , rgb(158, 220, 253),blue,  rgb(158, 220, 253));
+    color:#fff;
+    height: 100px;
+    margin: auto;
+    position:fixed;
+    width: 100%;
+    top: 0;
+    text-align:justify;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:smaller;
+    word-spacing: 10px;
+    letter-spacing: 00.1rem;
+    display:inline;
+    
+  }
+
+  .parallax{
+    background-image:url("fond- 1.jpg");
+    min-height: 500px; 
+    height: 1000px;
+    background-attachment: fixed;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  object-fit:cover;
+  opacity: 100%;
+  }
+
+
+  nav ul li{
+    list-style-type: style;
+    display:inline;
+    padding: 10px;
+    position:initial;
+  }
+
+  nav ul li a{
+    font-size:larger;
+    display: inline; 
+  }
+  
+.plus2:hover{
+  color: rgb(158, 220, 253);
+}
+
+.plus2{
+  display: inline; 
+  text-decoration: none;
+}
+
+  ul li a{
+    color: #fff;
+    letter-spacing: 0.1rem;
+    display: inline; 
+  }
+
+  .menu li{
+    padding:0px;
+  }
+  .menu a{
+    word-spacing: 20px;
+  }
+
+  .menu{
+    text-align: center;
+    margin-left: -70px;
+    
+  }
+
+
+
+  .s{
+    grid-column:span 1;
+    grid-row:span 1;
+    color: blue;
+    margin: 10px;
+  }
+
+  .m{
+    grid-column:span 1;
+    grid-row:span 1;
+    color: blue;
+    margin: 1px;
+    gap:300px;
+ 
+  }
+  
+  
+  .gap.grid img{
+    object-fit:contain;
+    height:115%;
+  }
+
+
+/*page archi photo*/
+
+
+
+
+.parallaxdeux{
+  background-image:url("fondarchi - 2.jpg");
+  min-height: 1500px; 
+  height: 2000px;
+  background-attachment: fixed;
+background-position: center;
+background-repeat:no-repeat;
+background-size: cover;
+object-fit:cover;
+opacity: 100%;
+
+}
+
+
+.grid{
+  display:grid;
+  grid-template-columns: repeat(4,210px);
+  grid-auto-flow: row dense;
+}
+
+.gap{
+  margin: 50px 40px 50px 300px;;
+  gap:30px;
+}
+
+  
+
+body .intention a h2{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align:left;
+  font-size:smaller;
+  word-spacing: 7px;
+  letter-spacing: 00.1rem;
+  line-height: 20px;
+  display:grid;
+  position: fixed;
+  color: rgb(4, 0, 109);
+  margin: 50px 40px 2550px 300px;
+
+}
+.grid2{
+  display:grid;
+  grid-template-columns: repeat(3,210px);
+  grid-auto-flow: row dense;
+  margin: 100px 40px 50px 300px;
+}
+
+
+.grid20{
+  display:grid;
+  grid-template-columns: repeat(3,210px);
+  grid-auto-flow: row dense;
+  margin: 7px 40px 50px -40px;
+}
+
+.intention{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align:left;
+  font-size:large;
+  word-spacing: 7px;
+  letter-spacing: 00.1rem;
+  line-height: 20px;
+  display:grid;
+  position: fixed;
+  color: blue;
+  margin: 50px 60px 2550px 450px;
+  grid-template-columns: repeat(3,210px);
+  grid-auto-flow: row dense;
+}
+
+
+
+.button{
+vertical-align:bottom;
+color:#fff;
+background-color:rgb(4, 0, 109);
+position:fixed;
+margin: 20px 70px 50px 90px;
+border-radius: 2mm;
+border-style:dotted;
+border-color:rgb(4, 0, 109);
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+letter-spacing: 1px;
+font-size:small;
+}
+
+.parallaxtrois{
+  background-image:url("fondanimaux - 2.jpg");
+  min-height: 1500px; 
+  height: 3800px;
+  background-attachment: fixed;
+background-position: center;
+background-repeat:no-repeat;
+background-size: cover;
+object-fit:cover;
+opacity: 100%;
+
+}
+
+.grid3{
+  display:grid;
+  grid-template-columns: repeat(2,300px);
+  grid-auto-flow: row dense;
+  margin: 100px 40px 50px 300px;
+  gap: 30px;
+
+  
+}
+
+.grid4{
+  display:grid;
+  grid-template-columns: repeat(1,600px);
+  grid-auto-flow: row dense;
+  margin: 100px 40px 50px 300px;
+  gap: 30px;
+}
+
+.grid5{
+  display:grid;
+  grid-template-columns: repeat(1,600px);
+  grid-auto-flow: row dense;
+  margin: 450px 4000px 50px -480px;
+  gap: 30px;
+  
+}
+
+.grid50{
+  display:grid;
+  grid-template-columns: repeat(1,600px);
+  grid-auto-flow: row dense;
+  margin: 5px 4000px 50px 50px;
+  gap: 30px;
+  
+}
+
+
+.parallax4{
+  background-image:url("fondspecimen - 2.jpg");
+  min-height: 1500px; 
+  height: 4900px;
+  background-attachment: fixed;
+background-position: center;
+background-repeat:no-repeat;
+background-size: cover;
+object-fit:cover;
+opacity: 100%;
+}
+
+.parallax5{
+  background-image:url("fondcali - 2.jpg");
+  min-height: 1500px; 
+  height: 4200px;
+  background-attachment: fixed;
+background-position: center;
+background-repeat:no-repeat;
+background-size: cover;
+object-fit:cover;
+opacity: 100%;
+}
+
+.parallax6{
+  background-image:url("fondstrates - 2.jpg");
+  min-height: 1500px; 
+  height: 2900px;
+  background-attachment: fixed;
+background-position: center;
+background-repeat:no-repeat;
+background-size: cover;
+object-fit:cover;
+opacity: 100%;
+}
+
+.parallax7{
+  background-image:url("fondlazaret - 2.jpg");
+  min-height: 1500px; 
+  height: 5300px;
+  background-attachment: fixed;
+background-position: center;
+background-repeat:no-repeat;
+background-size: cover;
+object-fit:cover;
+opacity: 100%;
+}
+
+
+.parallax8{
+  background-image:url("fondldartiste - 2.jpg");
+  min-height: 1500px; 
+  height: 7800px;
+  background-attachment: fixed;
+background-position: center;
+background-repeat:no-repeat;
+background-size: cover;
+object-fit:cover;
+opacity: 100%;
+}
+
+.parallax9{
+  background-image:url("fondillustrations - 2.jpg");
+  min-height: 50px; 
+  height: 2300px;
+  background-attachment: fixed;
+background-position: center;
+background-repeat:no-repeat;
+background-size: cover;
+object-fit:cover;
+opacity: 100%;
+}
+
+.texteanime{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size:15px;
+color: blue;
+display:inline-block;
+margin: 150px;
+word-spacing: 20px;
+text-align: center;
+position:fixed;
+background: linear-gradient(90deg,blue,  rgb(158, 220, 253), blue);
+background-repeat: no-repeat;
+background-size: 80%;
+animation: animate 4s infinite;
+-webkit-background-clip: text;
+-webkit-text-fill-color: rgba(255, 255, 255, 0);
+}
+
+
+.texteanime2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size:15px;
+  color: blue;
+  display:inline-block;
+  margin: 380px 200px 300px 600px;
+  word-spacing: 20px;
+  text-align: center;
+  position:fixed;
+  background: linear-gradient(90deg,blue,  rgb(158, 220, 253), blue);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 4s infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+  }
+  
+
+
+@keyframes animate {
+  0% {
+    background-position: -500%;
+  }
+  100% {
+    background-position: 500%;
+  }
+}
+
+.texte h5 a{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 30px;
+  color: blue;
+  background: none;
+  text-align: center;
+  text-decoration: none;
+  margin: 400px;
+
+}
+
+
+.texte h5 a:hover{
+  color: rgb(158, 220, 253);
+}
+
+.head2{
+  font-size: 37px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: rgb(0, 0, 255);
+  color:#fff;
+  height: 100px;
+  margin: auto;
+  position:fixed;
+  width: 100%;
+  top: 0;
+  text-align:left;
+  letter-spacing: 3px;
+}
+
+
+.background{
+  background-image:url("fond- 1.jpg");
+  min-height: 500px; 
+  height:800px;
+  background-attachment: fixed;
+background-position: center;
+background-repeat:no-repeat;
+background-size: cover;
+object-fit:cover;
+opacity: 100%;
+}
+
+
+.apropos{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-align:center;
+  font-size:smaller;
+  word-spacing: 20px;
+  letter-spacing: 00.1rem;
+  display:grid;
+  position:fixed;
+  color: rgb(4, 0, 109);
+  margin: 250px 200px 100px 600px;
+}
